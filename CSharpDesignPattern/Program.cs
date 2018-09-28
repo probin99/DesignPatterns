@@ -35,6 +35,8 @@ namespace CSharpDesignPattern
             //IShape shapeC = createShape.GetShape("Square");
             //shapeC.Draw();
 
+
+
             //3. Abstract Factory
             AbstractFactoryclass shapeFactory = FactoryProducerClass.GetFactory("Shape");
             IShape shapeA = shapeFactory.GetShape("Rectangle");

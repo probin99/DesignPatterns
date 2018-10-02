@@ -9,7 +9,7 @@ namespace CSharpDesignPattern.Creational.Message
     public class Message
     {
         //private static object of current class so that only one object is created
-        private static Message message = new Message();
+        private static readonly Message message = new Message();
        
         //private consttructor so that class cannot be instantiated
         private Message()

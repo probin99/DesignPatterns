@@ -15,11 +15,11 @@ namespace CSharpDesignPattern
     {
         static void Main(string[] args)
         {
-            ////Creational Design Pattern Types
-            ////1. Singleton
-            //// One class is responsible for creating one object which contains
-            //Message message = Message.getObject();
-            //message.PrintMessage();
+            //Creational Design Pattern Types
+            //1. Singleton
+            // One class is responsible for creating one object which contains
+            Message message = Message.getObject();
+            message.PrintMessage();
 
 
 
@@ -37,26 +37,26 @@ namespace CSharpDesignPattern
 
 
 
-            //3. Abstract Factory
-            AbstractFactoryclass shapeFactory = FactoryProducerClass.GetFactory("Shape");
-            IShape shapeA = shapeFactory.GetShape("Rectangle");
-            shapeA.Draw();
+            ////3. Abstract Factory
+            //AbstractFactoryclass shapeFactory = FactoryProducerClass.GetFactory("Shape");
+            //IShape shapeA = shapeFactory.GetShape("Rectangle");
+            //shapeA.Draw();
 
-            IShape shapeB = shapeFactory.GetShape("Circle");
-            shapeB.Draw();
+            //IShape shapeB = shapeFactory.GetShape("Circle");
+            //shapeB.Draw();
 
-            IShape shapeC = shapeFactory.GetShape("Square");
-            shapeC.Draw();
+            //IShape shapeC = shapeFactory.GetShape("Square");
+            //shapeC.Draw();
 
-            AbstractFactoryclass colorFactory = FactoryProducerClass.GetFactory("Color");
-            IColor colorA = colorFactory.GetColor("Red");
-            colorA.Fill();
+            //AbstractFactoryclass colorFactory = FactoryProducerClass.GetFactory("Color");
+            //IColor colorA = colorFactory.GetColor("Red");
+            //colorA.Fill();
 
-            IColor colorB = colorFactory.GetColor("Green");
-            colorB.Fill();
+            //IColor colorB = colorFactory.GetColor("Green");
+            //colorB.Fill();
 
-            IColor colorC = colorFactory.GetColor("Blue");
-            colorC.Fill();
+            //IColor colorC = colorFactory.GetColor("Blue");
+            //colorC.Fill();
 
             //Hold Screen
             Console.ReadLine();

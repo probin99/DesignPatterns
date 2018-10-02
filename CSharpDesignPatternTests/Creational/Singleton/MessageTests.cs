@@ -12,10 +12,10 @@ namespace CSharpDesignPattern.Creational.Message.Tests
     public class MessageTests
     {
         [TestMethod()]
-        public void getObjectTest()
+        public void GetObjectTest()
         {
             //Check singleton object
-            Assert.AreSame(Message.getObject(), Message.getObject());
+            Assert.AreSame(Message.GetObject(), Message.GetObject());
         }
     }
 }

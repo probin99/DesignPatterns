@@ -18,7 +18,7 @@ namespace CSharpDesignPattern
             //Creational Design Pattern Types
             //1. Singleton
             // One class is responsible for creating one object which contains
-            Message message = Message.getObject();
+            Message message = Message.GetObject();
             message.PrintMessage();
 
 
